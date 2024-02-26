@@ -1,3 +1,12 @@
 [submodule "esp-idf"]
 	path = esp-idf
 	url = https://github.com/espressif/esp-idf.git
+[submodule "esp32_components"]
+	path = components
+	url = https://github.com/cweave72/esp32_components.git
+[submodule "esp32_tools"]
+	path = tools
+	url = https://github.com/cweave72/esp32_tools.git
+[submodule "projects"]
+	path = projects
+	url = https://github.com/cweave72/esp32_projects

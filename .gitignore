@@ -1,0 +1,5 @@
+.ccls-cache
+cscope.files
+cscope.out
+tags
+**/build/
