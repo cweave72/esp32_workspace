@@ -36,4 +36,10 @@ export MONITOR_PORT="/dev/ttyUSB0"
 export COMPONENTS_PATH=$SCRIPTPATH/components
 export ESP32_TOOLS=$SCRIPTPATH/tools
 
+# Create tool virtual environment.
+(\
+cd $ESP32_TOOLS && \
+source init_env.sh \
+)
+
 check_espidf_env
